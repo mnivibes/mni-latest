@@ -1,0 +1,22 @@
+{
+ "format": 1,
+ "about": "MNI 1 Plus approved firmware (D-285), newest first; written by approved_pointer.py v1.0.0 from the approved/suit-* tags",
+ "latest": {
+  "suit": "3.1.0",
+  "tx": "3.2.0",
+  "tag": "approved/suit-3.1.0",
+  "commit": "f5cfa46318caa85cab3c00110aa5443a98c32699",
+  "short": "f5cfa46",
+  "date": "2026-11-02"
+ },
+ "approved": [
+  {
+   "suit": "3.1.0",
+   "tx": "3.2.0",
+   "tag": "approved/suit-3.1.0",
+   "commit": "f5cfa46318caa85cab3c00110aa5443a98c32699",
+   "short": "f5cfa46",
+   "date": "2026-11-02"
+  }
+ ]
+}
