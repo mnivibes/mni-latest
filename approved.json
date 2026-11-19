@@ -1,13 +1,28 @@
 {
  "format": 1,
- "about": "MNI 1 Plus approved firmware (D-285), newest first; written by approved_pointer.py v1.0.0 from the approved/suit-* tags",
+ "about": "MNI 1 Plus approved firmware (D-285), newest first; written by approved_pointer.py v1.1.0 from the approved/suit-* tags",
  "latest": {
   "suit": "3.1.1",
   "tx": "3.2.0",
   "tag": "approved/suit-3.1.1",
   "commit": "ce9fcf2070ecf33a89cee4147dcb56053f705cf2",
   "short": "ce9fcf2",
-  "date": "2026-11-03"
+  "date": "2026-11-03",
+  "files": {
+   "suit": {
+    "name": "mni-suit-app-ota.bin",
+    "bytes": 92160,
+    "sha256": "85613eb026b3aa488a500cf97e41288f5d3a5e255053876e60ccdd743237eff8",
+    "url": "https://github.com/mnivibes/mni-latest/releases/download/suit-3.1.1/mni-suit-app-ota.bin",
+    "image": "0xD770"
+   },
+   "tx": {
+    "name": "mni-tx-ota.bin",
+    "bytes": 92160,
+    "sha256": "4068e4b8b411142e8695beb06361760c1b1c63049cff6708480f3cef4444a403",
+    "url": "https://github.com/mnivibes/mni-latest/releases/download/suit-3.1.1/mni-tx-ota.bin"
+   }
+  }
  },
  "approved": [
   {
@@ -16,7 +31,22 @@
    "tag": "approved/suit-3.1.1",
    "commit": "ce9fcf2070ecf33a89cee4147dcb56053f705cf2",
    "short": "ce9fcf2",
-   "date": "2026-11-03"
+   "date": "2026-11-03",
+   "files": {
+    "suit": {
+     "name": "mni-suit-app-ota.bin",
+     "bytes": 92160,
+     "sha256": "85613eb026b3aa488a500cf97e41288f5d3a5e255053876e60ccdd743237eff8",
+     "url": "https://github.com/mnivibes/mni-latest/releases/download/suit-3.1.1/mni-suit-app-ota.bin",
+     "image": "0xD770"
+    },
+    "tx": {
+     "name": "mni-tx-ota.bin",
+     "bytes": 92160,
+     "sha256": "4068e4b8b411142e8695beb06361760c1b1c63049cff6708480f3cef4444a403",
+     "url": "https://github.com/mnivibes/mni-latest/releases/download/suit-3.1.1/mni-tx-ota.bin"
+    }
+   }
   },
   {
    "suit": "3.1.0",
@@ -26,5 +56,79 @@
    "short": "f5cfa46",
    "date": "2026-11-02"
   }
- ]
+ ],
+ "known": {
+  "0xD174": "1.1.0",
+  "0x7D67": "1.1.1",
+  "0xC3E1": "1.1.1",
+  "0x9C60": "1.11.0",
+  "0xBDD2": "1.12.0",
+  "0x6E60": "1.12.1",
+  "0x0E13": "1.12.2",
+  "0x6E39": "1.12.3",
+  "0x2873": "1.12.4",
+  "0x37C5": "1.12.5",
+  "0xDE4B": "1.12.6",
+  "0xF8E2": "1.12.7",
+  "0xD9D1": "1.12.8",
+  "0x78DC": "1.12.9",
+  "0x3DA2": "1.13.0",
+  "0xD23C": "1.14.0",
+  "0xC133": "1.14.1",
+  "0x0779": "1.14.2",
+  "0x12F7": "1.14.3",
+  "0xA3AF": "1.15.0",
+  "0x7914": "1.15.1",
+  "0xFF5D": "1.16.0",
+  "0x27B7": "1.16.1",
+  "0xE750": "1.17.0",
+  "0x04AE": "1.18.0",
+  "0xC47A": "1.19.0",
+  "0x0523": "1.19.1",
+  "0x83DD": "1.19.2",
+  "0x39B7": "1.2.0",
+  "0x6B3A": "1.2.0",
+  "0x062D": "1.2.1",
+  "0x8FEF": "1.21.0",
+  "0x2878": "1.22.0",
+  "0x7378": "1.23.0",
+  "0x7A80": "1.23.0",
+  "0xC0DB": "1.23.0",
+  "0x81AC": "1.23.0",
+  "0xA098": "1.23.0",
+  "0x2AF4": "1.24.0",
+  "0xD4D8": "1.25.0",
+  "0xF2C1": "1.26.0",
+  "0x79F2": "1.27.0",
+  "0xAD7F": "1.27.1",
+  "0x66B1": "1.27.2",
+  "0x716B": "1.27.3",
+  "0x1985": "1.3.0",
+  "0xFF02": "1.4.0",
+  "0xB407": "1.4.1",
+  "0x4ED2": "1.4.2",
+  "0xC352": "1.4.3",
+  "0x3CE5": "1.5.0",
+  "0xA080": "1.5.1",
+  "0x2590": "1.5.2",
+  "0x1005": "1.5.3",
+  "0x992C": "1.5.3",
+  "0x5C22": "1.5.4",
+  "0x4374": "1.6.0",
+  "0xE345": "1.6.0",
+  "0xE63E": "1.7.0",
+  "0x0ED5": "1.8.0",
+  "0x514C": "1.8.1",
+  "0xF67E": "1.9.0",
+  "0x0DA0": "1.9.1",
+  "0x2DDF": "2.3.0",
+  "0x803F": "2.3.1",
+  "0xBF05": "2.4.0",
+  "0x7407": "2.4.1",
+  "0x1ABE": "2.4.2",
+  "0x3607": "2.5.0",
+  "0x2755": "3.1.0",
+  "0x9159": "3.2.0",
+  "0xD770": "3.1.1"
+ }
 }
